@@ -1,4 +1,45 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
 
+h1 {
+    color: grey;
+    font-family: verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 473px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+div *:not(footer,h1) {
+    display: inline;
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+#result p>* {
+    margin-left: 0;
+}
+
+#rate_val {
+    margin-left: 0;
+}
+
+#principal {
+    margin-left: 68px;
+}
+
+#rate {
+    margin-left: 90px;
+}
+
+#years {
+    margin-left: 38px;
+}
